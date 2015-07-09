@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>哈药业代宝</title>
+
+  <!-- build:css(.) css/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/admin-lte/dist/css/AdminLTE.css" />
+  <link rel="stylesheet" href="bower_components/admin-lte/dist/css/skins/skin-blue-light.css" />
+  <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js(.) js/ie.js -->
+  <!--[if lte IE 9]>
+    <script src="bower_components/console-polyfill/index.js"></script>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/es5-shim/es5-sham.js"></script>
+    <script src="bower_components/respond/dest/respond.src.js"></script>
+  <![endif]-->
+  <!-- endbuild -->
+
+  <!-- build:less css/app.css -->
+  <link rel="stylesheet/less" href="app-framework.less" />
+  <!-- endbuild -->
+
+  <!-- build:remove -->
+  <script src="bower_components/less/dist/less.js"></script>
+  <!-- endbuild -->
+</head>
+<body ng-app="app">
+  <ng-view autoscroll></ng-view>
+  <ui-view autoscroll></ui-view>
+
+  <!-- build:js(.) js/vendor.js -->
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/admin-lte/dist/js/app.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="bower_components/slimscroll/jquery.slimscroll.min.js"></script>
+  <script src="bower_components/angular-utils-pagination/dirPagination.js"></script>
+  <script src="bower_components/angular-file-upload/angular-file-upload.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js({app,.tmp/generated}) js/app.js -->
+  <script src="app.urgent.js"></script>
+  <script src="funregister/fun.urgent.js"></script>
+  <script src="funregister/funedit.urgent.js"></script>
+  <script src="modules/cmrelation.urgent.js"></script>
+  <script src="modules/comp.urgent.js"></script>
+  <script src="modules/compCol.urgent.js"></script>
+  <script src="modules/index.urgent.js"></script>
+  <script src="modules/listcomp.urgent.js"></script>
+  <script src="modules/maintain.urgent.js"></script>
+  <script src="modules/myPro.urgent.js"></script>
+  <script src="modules/myProBank.urgent.js"></script>
+  <script src="modules/order.urgent.js"></script>
+  <script src="modules/organization.urgent.js"></script>
+  <script src="modules/parameter.urgent.js"></script>
+  <script src="modules/people.urgent.js"></script>
+  <script src="modules/terminal.urgent.js"></script>
+  <script src="modules/user.urgent.js"></script>
+  <script src="modules/wList.urgent.js"></script>
+  <script src="modules/workList.urgent.js"></script>
+  <script src="role/role.urgent.js"></script>
+  <script src="controller/ListCompController.js"></script>
+  <script src="controller/ListEditController.js"></script>
+  <script src="controller/cmrelationController.js"></script>
+  <script src="controller/compColController.js"></script>
+  <script src="controller/compCollect.js"></script>
+  <script src="controller/compController.js"></script>
+  <script src="controller/maintainController.js"></script>
+  <script src="controller/myProController.js"></script>
+  <script src="controller/myProPriceController.js"></script>
+  <script src="controller/organizationController.js"></script>
+  <script src="controller/parameterController.js"></script>
+  <script src="controller/peopleController.js"></script>
+  <script src="controller/pic_feedbackControler.js"></script>
+  <script src="controller/terminalController.js"></script>
+  <script src="controller/testController.js"></script>
+  <script src="controller/wListController.js"></script>
+  <script src="controller/workListController.js"></script>
+  <script src="filter/filter_comp_dosageforms.js"></script>
+  <script src="filter/filter_comp_level.js"></script>
+  <script src="filter/filter_comp_type.js"></script>
+  <script src="filter/filter_comp_way.js"></script>
+  <script src="filter/filter_yuan.js"></script>
+  <script src="funregister/funeditController.js"></script>
+  <script src="funregister/funregController.js"></script>
+  <script src="funregister/funregService.js"></script>
+  <script src="role/ManagerAuthorityCtrl.js"></script>
+  <script src="role/ManagerAuthorityService.js"></script>
+  <script src="role/managermemberCtrl.js"></script>
+  <script src="role/managermemebrService.js"></script>
+  <script src="role/roleController.js"></script>
+  <script src="role/roleEditCtrl.js"></script>
+  <script src="role/roleService.js"></script>
+  <script src="service/MyProService.js"></script>
+  <script src="service/loginService.js"></script>
+  <script src="service/maintainService.js"></script>
+  <script src="service/organizationService.js"></script>
+  <script src="service/parameterService.js"></script>
+  <script src="service/templateAPI.js"></script>
+  <script src="service/workListService.js"></script>
+  <!-- endbuild -->
+
+  <!-- templates -->
+</body>
+</html>
